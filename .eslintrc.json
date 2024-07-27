@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Additional, per-project rules...
+    "react/no-unescaped-entities": 0
+  }
+}
