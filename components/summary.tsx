@@ -36,7 +36,7 @@ const Summary = () => {
               height={110}
               quality={100}
               priority={true}
-              className="h-24.2 w-24.2 rounded-full object-cover border-[0.35rem] border-indigo-300 dark:border-gray-300 shadow-xl"
+              className="h-24.2 w-24.2 rounded-full object-cover border-[0.35rem] border-violet-300 dark:border-indigo-300 shadow-xl"
             />
           </motion.div>
 
