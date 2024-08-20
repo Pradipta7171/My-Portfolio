@@ -13,3 +13,15 @@ html.dark {
 .borderBlack {
     @apply border border-black/10;
 }
+
+@layer base {
+   /* Hide scrollbar for all browsers */
+   ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+  body {
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+}
