@@ -51,6 +51,14 @@ export const experiencesData = [
     icon: React.createElement(FaCloud),
     date: "Sept 2023 - Nov 2023",
   },
+  {
+    title: "Technology Engineer Trainee - Equifax",
+    location: "Pune, India",
+    description:
+      "Currently undergoing training at Equifax, focusing on java development and cloud technologies. Gaining hands-on experience in developing scalable applications and working with cloud infrastructure.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2025 - Present",
+  },
 ] as const;
 
 export const projectsData = [
