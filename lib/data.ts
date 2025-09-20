@@ -66,7 +66,7 @@ export const projectsData = [
     title: "Dutta's Blog",
     description:
       "Explore, Engage, and Share: Your Platform for Dynamic Public Posts, Where Ideas Flourish and Creativity Knows No Bounds with Diverse Knowledge Sharing.",
-    tags: ["React", "Next.js", "MongoDB", "Prisma", "Clerk", "Firebase", ],
+    tags: ["React", "Next.js", "MongoDB", "Prisma", "Clerk", "Firebase"],
     imageUrl: BlogsiteImg,
     link: "https://prodipto-blogsite.vercel.app",
   },
@@ -74,7 +74,14 @@ export const projectsData = [
     title: "Chat-Sync",
     description:
       "Empowering Conversations: Secure Chat with Media Sharing and Admin Controls including Group Chats and typing indicator.",
-    tags: ["React", "Chakra UI", "Node.js", "Express.Js", "MongoDB", "Cloudinary"],
+    tags: [
+      "React",
+      "Chakra UI",
+      "Node.js",
+      "Express.Js",
+      "MongoDB",
+      "Cloudinary",
+    ],
     imageUrl: ChatsyncImg,
     link: "https://chat-sync-s15y.onrender.com",
   },
@@ -82,7 +89,14 @@ export const projectsData = [
     title: "Kanban Task Manager",
     description:
       "Effortlessly Capture, Organize, and Remember: Your Personal Task Companion, Always On Schedule with No Extra Storage Required.",
-    tags: ["Next.js", "React", "TypeScript", "Firebase", "Tailwind CSS", "Ant Design"],
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Firebase",
+      "Tailwind CSS",
+      "Ant Design",
+    ],
     imageUrl: KanbanImg,
     link: "https://kanbanboard-blush.vercel.app",
   },
