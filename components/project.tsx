@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useRef } from 'react';
+import type { StaticImageData } from "next/image";
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useScroll, useTransform } from 'framer-motion';
 import { motion } from 'framer-motion';
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = Omit<(typeof projectsData)[number], "imageUrl"> & {
+  imageUrl: string | StaticImageData;
+};
 
 function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
