@@ -9,8 +9,9 @@ import { useScroll, useTransform } from 'framer-motion';
 import { motion } from 'framer-motion';
 
 type ProjectProps = Omit<(typeof projectsData)[number], "imageUrl"> & {
-  imageUrl: StaticImageData; // remove `number`
+  imageUrl: StaticImageData;
 };
+
 
 function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
