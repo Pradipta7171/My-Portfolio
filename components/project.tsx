@@ -9,7 +9,7 @@ import { useScroll, useTransform } from 'framer-motion';
 import { motion } from 'framer-motion';
 
 type ProjectProps = Omit<(typeof projectsData)[number], "imageUrl"> & {
-  imageUrl: string | StaticImageData;
+  imageUrl: StaticImageData; // remove `number`
 };
 
 function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
