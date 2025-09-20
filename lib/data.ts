@@ -79,12 +79,12 @@ export const projectsData = [
     link: "https://chat-sync-s15y.onrender.com",
   },
   {
-    title: "NotesKeeper App",
+    title: "Kanban-Board App",
     description:
-      "Effortlessly Capture, Organize, and Remember: Your Personal Notes Companion, Always On Schedule with No Extra Storage Required.",
+      "Effortlessly Capture, Organize, and Remember: Your Personal Task Assistant, Always On Schedule with No Extra Storage Required.",
     tags: ["React", "Node.js", "SQL", "MongoDB", "Google Auth"],
     imageUrl: NoteskeeperImg,
-    link: "https://notes-keeper-hkf7.onrender.com",
+    link: "https://kanbanboard-blush.vercel.app",
   },
   {
     title: "SocioSync",
