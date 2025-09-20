@@ -4,7 +4,7 @@ import { FaCloud } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import BlogsiteImg from "@/public/Blogsite.png";
 import ChatsyncImg from "@/public/chatsync.png";
-import NoteskeeperImg from "@/public/notekeeper.png";
+import Kanban-BoardImg from "@/public/Kanban-Board.png";
 import SociosyncImg from "@/public/sociosync.png";
 
 export const links = [
