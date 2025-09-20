@@ -4,7 +4,7 @@ import { FaCloud } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import BlogsiteImg from "@/public/Blogsite.png";
 import ChatsyncImg from "@/public/chatsync.png";
-import Kanban-BoardImg from "@/public/Kanban-Board.png";
+import KanbanImg from "@/public/Kanban-Board.png";
 import SociosyncImg from "@/public/sociosync.png";
 
 export const links = [
@@ -79,11 +79,11 @@ export const projectsData = [
     link: "https://chat-sync-s15y.onrender.com",
   },
   {
-    title: "Kanban-Board App",
+    title: "Kanban Task Manager",
     description:
-      "Effortlessly Capture, Organize, and Remember: Your Personal Task Assistant, Always On Schedule with No Extra Storage Required.",
-    tags: ["React", "Node.js", "SQL", "MongoDB", "Google Auth"],
-    imageUrl: Kanban-BoardImg,
+      "A modern Kanban board built with Next.js and React, featuring task storage with Firebase, TypeScript for reliability, and Tailwind CSS with Ant Design for a sleek UI. Deployed on Vercel with proper error handling and structured git workflow.",
+    tags: ["Next.js", "React", "TypeScript", "Firebase", "Tailwind CSS", "Ant Design"],
+    imageUrl: KanbanImg,
     link: "https://kanbanboard-blush.vercel.app",
   },
   {
