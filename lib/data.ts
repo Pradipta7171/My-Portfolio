@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "Effortlessly Capture, Organize, and Remember: Your Personal Task Assistant, Always On Schedule with No Extra Storage Required.",
     tags: ["React", "Node.js", "SQL", "MongoDB", "Google Auth"],
-    imageUrl: NoteskeeperImg,
+    imageUrl: Kanban-BoardImg,
     link: "https://kanbanboard-blush.vercel.app",
   },
   {
