@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: "Kanban Task Manager",
     description:
-      "A modern Kanban board built with Next.js and React, featuring task storage with Firebase, TypeScript for reliability, and Tailwind CSS with Ant Design for a sleek UI. Deployed on Vercel with proper error handling and structured git workflow.",
+      "Effortlessly Capture, Organize, and Remember: Your Personal Task Companion, Always On Schedule with No Extra Storage Required.",
     tags: ["Next.js", "React", "TypeScript", "Firebase", "Tailwind CSS", "Ant Design"],
     imageUrl: KanbanImg,
     link: "https://kanbanboard-blush.vercel.app",
